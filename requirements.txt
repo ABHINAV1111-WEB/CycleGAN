@@ -1,0 +1,27 @@
+# CycleGAN - Unpaired Image-to-Image Translation
+# Deep Learning Framework
+torch>=2.0.0
+torchvision>=0.15.0
+torchaudio>=2.0.0
+
+# Configuration Management
+PyYAML>=6.0
+
+# Data Processing and Image Handling
+Pillow>=9.0.0
+numpy>=1.24.0
+opencv-python>=4.7.0
+scikit-image>=0.20.0
+
+# Data Augmentation
+albumentations>=1.3.0
+
+# Visualization and Monitoring
+matplotlib>=3.7.0
+tensorboard>=2.12.0
+
+# Progress Bars
+tqdm>=4.65.0
+
+# Development and Utilities
+python-dotenv>=1.0.0

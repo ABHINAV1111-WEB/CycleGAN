@@ -1,0 +1,24 @@
+﻿project:
+  name: "CycleGAN-Image2Image"
+  seed: 42
+
+paths:
+  trainA: "datasets/horse2zebra/trainA"
+  trainB: "datasets/horse2zebra/trainB"
+  valA: "data/valA"
+  valB: "data/valB"
+
+training:
+  device: "cuda"
+  epochs: 10
+  batch_size: 1
+  num_workers: 0
+  lr: 0.0002
+  beta1: 0.5
+  beta2: 0.999
+
+data:
+  image_size: 256
+
+logging:
+  print_every_steps: 100
